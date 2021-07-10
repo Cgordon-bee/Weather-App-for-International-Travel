@@ -1,15 +1,13 @@
 <<<<<<< HEAD
-# Weather-App-for-UK
+# Weather-App-internation travellers
 ## User Story
 
-```
-=======
-# Weather-App-for-internation travel
+# Weather-App-for-international travel
 >>>>>>> 5435161c1d1dba69332e7a6c43f9571140eb61d9
 AS A traveler
 I WANT to see the weather outlook for multiple cities
 SO THAT I can plan a trip accordingly
-```
+
 
 ## Acceptance Criteria
 
