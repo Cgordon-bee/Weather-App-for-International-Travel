@@ -1,8 +1,8 @@
 var API_KEY = "1d7f4a93892a901d16a2035551c08c50";
-var generateEndPoint = city;
+var generateEndPoint = "city";
 var citySelectionForm = "citySelection";
 var citySelectionInput = "input";
-var weatherCard = ;
+var weatherCard = "weatherForecast";
 var citySelectionInput = $("#citySelectionInput");
 
 function generateUrl (city) {
@@ -20,11 +20,15 @@ function generateEndPoint (city) {
 
 }
 
-function makeRequest (EndPoint) {
+function makeRequest (endPoint) {
+    return fetch (EndPoint).then(function (res) {
+    return res.json();
 
+    var city ="london";
+
+});
 
 }
-``
 
 
 function creatWeatherCard (dayweatherInfo) {
@@ -40,3 +44,4 @@ var selectedcity = citySelectionInput.valueOf();
 }
 
 }
+
