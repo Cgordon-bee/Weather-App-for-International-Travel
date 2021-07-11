@@ -2,10 +2,10 @@ var API_KEY = "1d7f4a93892a901d16a2035551c08c50";
 var generateEndPoint = city;
 var citySelectionForm = "citySelection";
 var citySelectionInput = "input";
-var weatherCard = 
+var weatherCard = ;
+var citySelectionInput = $("#citySelectionInput");
 
 function generateUrl (city) {
-
 
 
 
@@ -13,7 +13,8 @@ function generateUrl (city) {
 }
 function generateEndPoint (city) {
     var NUMBER_OF_DAYS_TO_REQUEST = 5; 
-    return https/api.openweathermap
+
+    return `https://api.openweathermap.org/data/2.5/forecast/daily?q=${city}&cnt=${NUMBER_OF_DAYS_TO_REQUEST}&appid=${API_KEY}`;
 
 
 
@@ -22,8 +23,9 @@ function generateEndPoint (city) {
 function makeRequest (EndPoint) {
 
 
-
 }
+``
+
 
 function creatWeatherCard (dayweatherInfo) {
 
@@ -31,6 +33,10 @@ var card = $("<div>");
 var temp = $("<p>");
 var humidity =$ ("<p>");
 
-    
+citySelectionForm.on ("submit"); function (event) {
+event.preventdefault();
+
+var selectedcity = citySelectionInput.valueOf();
+}
 
 }
