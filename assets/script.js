@@ -5,6 +5,8 @@ var citySelectionInput = "input";
 var weatherCard = "weatherForecast";
 var citySelectionInput = $("#citySelectionInput");
 
+
+
 function generateUrl (city) {
 
 
@@ -24,7 +26,6 @@ function makeRequest (endPoint) {
     return fetch (EndPoint).then(function (res) {
     return res.json();
 
-    var city ="london";
 
 });
 
