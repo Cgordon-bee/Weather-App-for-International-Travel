@@ -1,12 +1,226 @@
 
-/* 
-{
+*{
 margin:0;
 Padding:0;
-box-sizing:border-box
-/ */
+box-sizing:border-box;
+}
 
 
-body 
-font-family: ;
+body {
+font-family: Arial, Helvetica, sans-serif;
 
+}
+
+
+.title{
+    align-content: center;
+
+
+}
+
+.hero-body{
+    display: block;
+    height: 150px;
+    align-content: center;
+    color: honeydew;
+    background-image: linear-gradient(rgb(1, 1, 87), rgb(0, 217, 255),blue);
+
+}
+
+
+#mainContainer-1{
+    display: grid;
+    grid-template-columns:1fr 2fr;
+    grid-gap: 10;
+    background-color:rgb(233, 150, 150);
+    padding: 10px;
+
+}
+/*
+#grid-item2{
+    display:flex;
+    background-color: rgb(9, 67, 145);
+    border:1px solid whitesmoke;
+    padding: 10px;
+    font-size: 20px;
+    text-align:center ;
+    max-width: 200px;
+    height: 200px;
+    box-shadow: -30px 30px 20px rgba(0, 24, 24, 0.3);
+    margin: 5px;
+    color: honeydew;
+   */
+
+#citySelectionForm{
+    width: 20rem;
+    height: 30px;
+    align-content: center;
+    padding-left: 10px;
+    padding-top: 5px;
+    margin-top: 10;
+    margin-left: 35px;
+}
+
+
+#btn{
+    width: 75px;
+    height: 30px;
+    align-content: center;
+    padding-left: 10px;
+    padding-top: 5px;
+    margin-left: 0;
+    font:15px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
+
+}
+
+
+
+
+.column-a {
+    max-width: 25rem;
+    height: 30px;
+    background-color:rgb(231, 225, 225);
+    align-content: center;
+    padding-left: 10px;
+    padding-top: 5px;
+    margin-left: 35px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
+
+
+}
+.column-b{
+    max-width: 25rem;
+    height: 30px;
+    background-color:rgb(231, 225, 225);
+    align-content: center;
+    padding-left: 10px;
+    padding-top: 5px;
+    margin-left: 35px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
+
+}
+.column-c{
+    max-width: 25rem;
+    height: 30px;
+    background-color:rgb(231, 225, 225);
+    align-content: center;
+    padding-left: 10px;
+    padding-top: 5px;
+    margin-left: 35px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
+
+}
+.column-d{
+    max-width: 25rem;
+    height: 30px;
+    background-color:rgb(231, 225, 225);
+    align-content: center;
+    padding-left: 10px;
+    padding-top: 5px;
+    margin-left: 35px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
+
+}
+.column-e{
+    max-width: 25rem;
+    height: 30px;
+    background-color:rgb(231, 225, 225);
+    align-content: center;
+    padding-left: 10px;
+    padding-top: 5px;
+    margin-left: 35px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
+
+}
+.column-f{
+    max-width: 25rem;
+    height: 30px;
+    background-color:rgb(231, 225, 225);
+    align-content: center;
+    padding-left: 10px;
+    padding-top: 5px;
+    margin-left: 35px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
+
+
+
+}
+.column-T{
+    display: flex;
+    width: 25rem;
+    height: 30px;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-left: 25px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
+    
+}
+
+.column-u{
+width:55rem;
+margin: 50px;
+float:right;
+height: 325px;
+background-color:white;
+border:rgb(49, 47, 47);
+border-radius: px;
+border-right:rgb(1, 1, 87);
+border-style: solid;
+
+}
+.decor{
+
+  margin: left 10px;
+  padding: 10px;
+}
+
+
+
+.container{
+    margin-top: 20px;
+    
+}
+
+
+
+.button{
+width: 16px;
+color: green;
+
+}
+
+/* this is the container for the 5 days grid */
+
+.grid-container{
+display: grid;
+grid-template-columns: auto auto auto auto auto; 
+grid-auto-rows: 1fr;
+padding: 10px;
+
+
+
+}
+
+.grid-column{
+
+
+
+}
+
+.grid-item{
+    background-color: rgb(9, 67, 145);
+    border:1px solid whitesmoke;
+    padding: 10px;
+    font-size: 20px;
+    text-align:center ;
+    max-width: 200px;
+    height: 200px;
+    box-shadow: -30px 30px 20px rgba(0, 24, 24, 0.3);
+    margin: 5px;
+    color: honeydew;
+
+
+
+}
